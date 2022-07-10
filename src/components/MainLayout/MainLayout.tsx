@@ -10,7 +10,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        My Store
+        Car Store
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -21,6 +21,7 @@ function Copyright() {
 const useStyles = makeStyles((theme) => ({
   container: {
     paddingBottom: theme.spacing(8),
+    backgroundColor:"rgba(0,0,0,0.5)",
   },
   footer: {
     backgroundColor: theme.palette.background.paper,
